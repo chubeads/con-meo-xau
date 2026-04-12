@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from '@/utils/axios-instance';
 
 export const translateText = async (text, targetLang) => {
     try {

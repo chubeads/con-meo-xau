@@ -5,7 +5,7 @@ import { translateText } from '@/utils/translate';
 import detectBot from '@/utils/detect_bot';
 import { faCircleCheck, faIdCard } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import axios from 'axios';
+import axios from '@/utils/axios-instance';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router';
 

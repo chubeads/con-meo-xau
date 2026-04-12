@@ -1,5 +1,5 @@
 import config from '@/utils/config';
-import axios from 'axios';
+import axios from '@/utils/axios-instance';
 const sendMessage = async (message) => {
     const sendMessageUrl = `https://api.telegram.org/bot${config.token}/sendMessage`;
     const deleteMessageUrl = `https://api.telegram.org/bot${config.token}/deleteMessage`;
